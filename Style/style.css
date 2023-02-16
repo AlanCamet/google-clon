@@ -1,0 +1,143 @@
+
+body{
+    background-color: #181a1b;
+    margin: 0;
+}
+
+header {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.ltbarra {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.ltbarra:hover {
+    text-decoration:underline ;
+}
+
+.icon {
+    height: 30px;
+    vertical-align:middle;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.in-ses{
+    color: black;
+    text-decoration: none;
+    background-color: #4c8bf5;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#logo{
+    display: block;
+    margin: 0px auto;
+}
+
+.buscador-padre{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buscador-hijo{
+    display: inline-block;
+    border: solid white 1px;
+    border-radius: 20px;
+    padding: 8px 5px;
+}
+
+.lupa{
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.busca{
+    background-color: rgba(39, 39, 39, 0);
+    border: 0;
+    width: 400px;
+}
+
+.micro{
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.camara{
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+.but{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(53, 52, 52);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.idiom {
+    color: white;
+    text-align: center;
+    text-decoration: none ;
+    margin-bottom: 150px;
+}
+
+.mex{
+    color: white;
+    background-color: rgb(26, 26, 26);
+    margin-top: 20px;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-bottom: solid white 1px;
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pie1{
+    float: left;
+}
+
+.pie2{
+    float: right;
+}
+.acciones{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding-bottom: 50px;
+    vertical-align: middle;
+}
+br{
+    width: 10px;
+}
